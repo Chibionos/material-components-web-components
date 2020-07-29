@@ -42,6 +42,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - label will be highlighted before input during horizontal navigation for
     screen readers
   - remove extra space between label and required asterisk (`*`)
+- `checkbox`
+  - Remove animation class after the animation ends to prevent replaying animations when hidden and shown, or removed and readded to the DOM
 
 ## [v0.17.2] - 2020-01-01
 
